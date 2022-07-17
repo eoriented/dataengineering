@@ -133,9 +133,6 @@ $ mvn package
 hadoop jar target/mapreduce-example-1.0.0.jar com.fastcampus.hadoop.ReduceSideJoinCustomKey /user/fastcampus/join/input/employees /user/fastcampus/join/input/departments /user/fastcampus/joinoutput3
 ```
 
-안녕하세요. 이번 시간에는 하둡에서 CLI를 통해 잡을 쉽게 실행할 수 있도록 도와주는 헬퍼 클래스인 제너릭옵션스 파서와 툴 러너에 관한 실습을 진행하도록 하겠습니다.
-제너릭 옵션스 파서 클래스는 CLI 옵션을 해석하여 하둡의 Configuration 객체에 값을 설정하는 역할을 합니다. 그러면 먼저 실습을 통해 확인해보도록 하겠습니다.
-
 ## 8. GenericOptionParser
 ### 1) 프로그램 작성
 01-hadoop/02-mapreduce/src/main/java/com/fastcampus/hadoop/GenericOptionsParserExample.java

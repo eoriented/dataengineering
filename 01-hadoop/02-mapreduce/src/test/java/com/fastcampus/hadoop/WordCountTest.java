@@ -42,13 +42,6 @@ public class WordCountTest {
             .runTest();
     }
 
-    // 안녕하세요 mrunit 실습 두번 째 시간입니다.
-    // 이전에 매퍼와 리듀스에 대한 테스트 실습을 진행하였는데요.
-    // runtest를 통하면 바로 입력값과 출력값을 비교하여 검증을 해줍니다.
-    // 그러나 runTest 외에도 run이라는 함수를 통해 입력에 대한 처리 결과 값을 리스트 값으로 리턴해주어
-    // 해당 값을 직접 출력해보거나 사용할 수 있는데요. 한번 실습을 통해 진행해보도록 하겠습니다.
-    // 먼저 맵 드라이버를 다시 선언해야 하는데요. 주로 맵 드라이버나 리듀스 드라이버의 경우 테스트
-    // 파일 내에서 많이 사용하기 때문에 멤버변수로 선언하도록 하겠습니다.
     @Test
     public void wordCountMapTest2() throws IOException {
         List<Pair<Text, IntWritable>> result = mapDriver
