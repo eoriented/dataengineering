@@ -33,8 +33,6 @@ $ hadoop fs ls /user
 $ hadoop fs ls -R /
 ```
 
-![](../images/2022-04-13-22-20-21.png)
-
 ### put, copyFromLocal
 로컬 파일 시스템에 있는 데이터를 목적지 파일시스템으로 복사
 
