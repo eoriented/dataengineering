@@ -1,6 +1,6 @@
 # Apache Spark
 
-# Spark 설치 (Mac)
+# Spark 설치
 ## 1. 사전 준비
 - Java가 설치되어 있어야 합니다.
 - python이 설치되어 있어야 합니다.
@@ -24,9 +24,6 @@ export PATH=$PATH:$SPARK_HOME/bin
 ```bash
 $ pyspark
 ```
-
-# Spark 설치 (Windows)
-# 작성 해야 함
 
 # 스파크 시작하기
 ### 1) SparkSession
