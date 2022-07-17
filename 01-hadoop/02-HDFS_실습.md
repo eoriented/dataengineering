@@ -1,9 +1,4 @@
 # HDFS 실습
-- CLI(Command Line Interface)
-- Java API
-
-# 현재 것을 예제로 하위에 두고 실제로 명령어 문서에서 사용법에 관한거 붙여 넣기
-
 ## 1. HDFS CLI
 - [HDFS 명령어 문서](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/FileSystemShell.html)
 
